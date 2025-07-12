@@ -1,0 +1,4 @@
+baseURL = 'http://portfolio.adml.es/'
+languageCode = 'en-us'
+title = 'My Portfolio'
+theme = 'hugo-profile'
