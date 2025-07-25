@@ -43,7 +43,7 @@ params:
 
   contact:
     enable: true
-    content: My inbox is always open.
+    content: My inbox is always open. Please contact me.
     btnLink: mailto:adrianmelendezlorenzo@gmail.com
 
   footer:
