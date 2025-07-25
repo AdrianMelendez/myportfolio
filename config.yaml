@@ -111,9 +111,50 @@ params:
           Summer internship at CIC nanoGUNE as a member of the Nanomagnetism Group. Research on ferromagnetic phase transitions in exchange graded layers.
           Knowledge of nanomagnetism basic concepts and data analysis with Python.
 
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Master of Theoretical Physis | Astrophysics"
+        school:
+          name: "Universidad Autónoma de Madrid (UAM)"
+          url: "https://www.uam.es/uam/inicio"
+          date: Sep 2022 - Jul 2023
+          GPA: "9 out of 10"
+
+      - title: "Bachelor of Science in Physics"
+        school: 
+          name: "Universidad del País Vasco (EHU)"
+          url: "https://www.ehu.eus/es/"
+        date: "Sep 2017 - Jul 2022"
+        GPA: "8.93 out of 10"
+        content: |-
+          Distinctions in several subjects during the degree: General Physics, Chemistry I, Experimental Techniques I (Laboratory), Algebra and Geometry,
+          Experimental Techniques III, Nuclear and Particle Physics, Solid State Physics I, Electrodynamics, Instrumentation I, Sensors and Actuators, 
+          Signals and Systems.
+        featuredLink:
+          enable: true
+          name: "Academic Record"
+          url: "https://example.com"
+      
+      - title: "Bachelor of Science in Electronic Engineering"
+        school: 
+          name: "Universidad del País Vasco (EHU)"
+          url: "https://www.ehu.eus/es/"
+        date: "Sep 2017 - Jul 2022"
+        GPA: "8.96 out of 10"
+        content: |-
+          Distinctions in several subjects during the degree: Programming Fundamentals, Electronics, Instrumentation I, Linear and Non-Linear Circuits,
+          Electronic and Optoelectronic Devices, Signals and Systems Sensors and Actuators.
+        featuredLink:
+          enable: true
+          name: "Academic Record"
+          url: "https://example.com"
+
   contact:
     enable: true
     content: My inbox is always open. Please contact me.
+    btnName: Mail me
     btnLink: mailto:adrianmelendezlorenzo@gmail.com
 
   footer:
