@@ -119,8 +119,12 @@ params:
         school:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
-          date: Sep 2022 - Jul 2023
-          GPA: "9 out of 10"
+        date: Sep 2022 - Jul 2023
+        GPA: "9 out of 10"
+        featuredLink:
+          enable: true
+          name: "Academic Record"
+          url: "master_record.pdf"
 
       - title: "Bachelor of Science in Physics"
         school: 
@@ -135,7 +139,7 @@ params:
         featuredLink:
           enable: true
           name: "Academic Record"
-          url: "https://example.com"
+          url: "physics_record.pdf"
       
       - title: "Bachelor of Science in Electronic Engineering"
         school: 
@@ -149,13 +153,13 @@ params:
         featuredLink:
           enable: true
           name: "Academic Record"
-          url: "https://example.com"
+          url: "elec_record.pdf"
 
   contact:
     enable: true
     content: My inbox is always open. Please contact me.
     btnName: Mail me
-    btnLink: mailto:adrianmelendezlorenzo@gmail.com
+    btnLink: mailto:adml15@proton.me
 
   footer:
     recentPosts:
