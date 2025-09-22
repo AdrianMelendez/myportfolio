@@ -49,9 +49,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Adrian Melendez."
-    subtitle: "Isn't this cool?"
-    content: "An astrophysicist that found joy in computer science. I fell in love with AI and machine learning."
-    image: /images/hero.svg
+    subtitle: "ML Engineer"
+    content: "Welcome to my home page! By education I am a theoretical physicist, but I ended up riding the Artificial Intelligence wave and falling in love with Machine Learning."
+    image: /images/me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -67,27 +67,33 @@ params:
           url: https://github.com/AdrianMelendez
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/adrian-melendez-lorenzo
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   about:
     enable: true
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I have two Bachelor's degrees, one in Physics and one in Electronic Engineering. After these, I did a Master's Degree on Theoreitcal Physics
-      and Astrophysics.
+      First, during my education I did two Bachelor's degrees, one in Physics and one in Electronic Engineering. After these, I did a Master's Degree on Theoreitcal Physics
+      and Astrophysics. specializing in the search of planet formation through data analysis.
 
-      I am currently working as an AI researcher at GMV, a defence and aerospace company. My role is to analyse the state of the art and develop
-      algorithms for sensor data fusion.
+      However, I decided not to pursue a PhD and start a company job instead. Currently, I am working as an AI researcher at GMV, a defence and aerospace company. My role is to analyse the state of the art and develop
+      algorithms for sensor data fusion, specially camera and radar. The main tasks are object detection and multi-object tracking.
+
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Containerization: docker, podman, kubernetes"
-        - "Coding: C++, Python"
-        - "Python libraries: pandas/polars, numpy, pytorch, stonesoup"
+        - "Docker"
+        - "Kubernetes"
+        - "PyTorch"
+        - "SciKit-Learn"
+        - "Pandas/Polars"
+        - "Jenkins/Gitlab CI"
+        - "Stonesoup"
+        - "Ultralytics"
 
   experience:
     enable: true
@@ -120,7 +126,9 @@ params:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
         date: Sep 2022 - Jul 2023
-        GPA: "9 out of 10"
+        GPA: "8.91 out of 10"
+        content: |-
+         Specialized in planet formation and data analysis.
         featuredLink:
           enable: true
           name: "Academic Record"
@@ -133,9 +141,11 @@ params:
         date: "Sep 2017 - Jul 2022"
         GPA: "8.93 out of 10"
         content: |-
-          Distinctions in several subjects during the degree: General Physics, Chemistry I, Experimental Techniques I (Laboratory), Algebra and Geometry,
-          Experimental Techniques III, Nuclear and Particle Physics, Solid State Physics I, Electrodynamics, Instrumentation I, Sensors and Actuators, 
-          Signals and Systems.
+          Honors in several subjects during the degree: 
+          - Physics | Chemistry I | Experimental Techniques I (Laboratory) | Algebra and Geometry
+          - Experimental Techniques III | Nuclear and Particle Physics | Solid State Physics I
+          - Electrodynamics | Instrumentation I | Sensors and Actuators | Signals and Systems
+           
         featuredLink:
           enable: true
           name: "Academic Record"
@@ -148,12 +158,39 @@ params:
         date: "Sep 2017 - Jul 2022"
         GPA: "8.96 out of 10"
         content: |-
-          Distinctions in several subjects during the degree: Programming Fundamentals, Electronics, Instrumentation I, Linear and Non-Linear Circuits,
-          Electronic and Optoelectronic Devices, Signals and Systems Sensors and Actuators.
+          Honors in several subjects during the degree: 
+          - Programming Fundamentals | Electronics | Instrumentation I | Linear and Non-Linear Circuits
+          - Electronic and Optoelectronic Devices | Signals and Systems | Sensors and Actuators
         featuredLink:
           enable: true
           name: "Academic Record"
           url: "elec_record.pdf"
+
+  projects:
+    enable: true
+    items:
+      - title: Electronic Engineering Thesis
+        content: Thesis of my Bsc on Electronic Engineering in Spanish
+        image: /images/tfg_ie.jpg
+        featured:
+          name: PDF
+          link: tfg_ie.pdf
+        badges:
+          - "Exoplanets"
+          - "Machine Learning"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/AdrianMelendez/ML_Exoplanets
+
+      - title: Physics Thesis
+        content: Thesis of my Bsc on Physics in Spanish
+        image: /images/tfg_physics.jpg
+        featured:
+          name: PDF
+          link: tfg_physics.pdf
+        badges:
+          - "Particle Physics"
+          - "Bibliographic"
 
   contact:
     enable: true
