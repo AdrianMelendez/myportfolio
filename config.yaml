@@ -121,7 +121,7 @@ params:
     enable: true
     index: false
     items:
-      - title: "Master of Theoretical Physis | Astrophysics"
+      - title: "Master of Theoretical Physics | Astrophysics"
         school:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
