@@ -169,6 +169,16 @@ params:
   projects:
     enable: true
     items:
+      - title: Tennis Tracking
+        content: An AI/ML-powered system for advanced tennis match analysis using computer vision and object tracking. 
+        image: /images/tnns.jpg
+        badges:
+          - "Sport"
+          - "Computer Vision"
+          - "Machine Learning"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/AdrianMelendez/tennis-tracking
       - title: Electronic Engineering Thesis
         content: Thesis of my Bsc on Electronic Engineering in Spanish
         image: /images/tfg_ie.jpg
