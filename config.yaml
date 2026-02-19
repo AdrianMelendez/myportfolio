@@ -96,47 +96,50 @@ params:
   experience:
     enable: true
     items:
-      - job: "AI / Perception Engineer"
-        company: "GMV"
-        companyUrl: "https://www.gmv.com/en-es"
-        date: "Jul 2023 - present"
-        content: |-
-          #### Research & Development in multi-sensor data fusion and object tracking for autonomous and defense-oriented systems.
-        
-          - Designed and implemented classical state estimation and tracking algorithms:
-            - Kalman Filter (KF), Extended KF (EKF), Unscented KF (UKF), Cubature KF (CKF)
-            - Particle Filter
-            - Joint Probabilistic Data Association (JPDA)
-            - Multi-Hypothesis Tracking (MHT)
-            - Track-to-Track Fusion (centralized & distributed architectures)
+      - company: "GMV"
+        companyUrl: "https://www.gmwv.com/en-es"
+        jobs: 
+          - name: "AI / Perception Engineer"
+            date: "Jul 2023 - present"
+            content: |-
 
-          - Developed AI-enhanced filtering and learning-based fusion approaches:
-            - KalmanNet, DANSE, APBM
-            - Cross-modal fusion (Camera + Radar, Camera + LiDAR)
-            - Hybrid model-based / data-driven tracking systems
+              - Research & Development in multi-sensor data fusion and object tracking for autonomous and defense-oriented systems.
+            
+              - Designed and implemented classical state estimation and tracking algorithms:
+                - Kalman Filter (KF), Extended KF (EKF), Unscented KF (UKF), Cubature KF (CKF)
+                - Particle Filter
+                - Joint Probabilistic Data Association (JPDA)
+                - Multi-Hypothesis Tracking (MHT)
+                - Track-to-Track Fusion (centralized & distributed architectures)
 
-          - Core developer of real-time sensor simulators (C++):
-            - Radar (GMTI) and EO/IR systems
-            - Physics-based and geometric modeling
-            - Systems designed under strict real-time constraints (≤5 ms)
+              - Developed AI-enhanced filtering and learning-based fusion approaches:
+                - KalmanNet, DANSE, APBM
+                - Cross-modal fusion (Camera + Radar, Camera + LiDAR)
+                - Hybrid model-based / data-driven tracking systems
 
-          - Lead algorithm developer for a real-time, agent-based sensor fusion pipeline (Python):
-            - Comparative evaluation of multiple tracking approaches
-            - Large-scale metrics analysis and benchmarking
-            - Containerized deployment (Docker/Podman) and Kubernetes orchestration
+              - Core developer of real-time sensor simulators (C++):
+                - Radar (GMTI) and EO/IR systems
+                - Physics-based and geometric modeling
+                - Systems designed under strict real-time constraints (≤5 ms)
 
-          - Infrastructure & tooling:
-            - ZeroMQ & Protocol Buffers (inter-process communication)
-            - CI/CD with GitLab CI & Jenkins
-            - Infrastructure as Code (Pulumi)
-            - Compute server administration & GPU workload management
-      - job: "Member of Nanomagnetism Group"
-        company: "CIC nanoGUNE"
-        companyUrl:
-        date: "Jun 2021 - Aug 2021"
-        content: |-
-          Summer internship at CIC nanoGUNE as a member of the Nanomagnetism Group. Research on ferromagnetic phase transitions in exchange graded layers.
-          Knowledge of nanomagnetism basic concepts and data analysis with Python.
+              - Lead algorithm developer for a real-time, agent-based sensor fusion pipeline (Python):
+                - Comparative evaluation of multiple tracking approaches
+                - Large-scale metrics analysis and benchmarking
+                - Containerized deployment (Docker/Podman) and Kubernetes orchestration
+
+              - Infrastructure & tooling:
+                - ZeroMQ & Protocol Buffers (inter-process communication)
+                - CI/CD with GitLab CI & Jenkins
+                - Infrastructure as Code (Pulumi)
+                - Compute server administration & GPU workload management
+      - company: "CIC nanoGUNE"
+        # companyUrl:
+        jobs:
+          - name: "Member of Nanomagnetism Group"
+            date: "Jun 2021 - Aug 2021"
+            content: |-
+              Summer internship at CIC nanoGUNE as a member of the Nanomagnetism Group. Research on ferromagnetic phase transitions in exchange graded layers.
+              Knowledge of nanomagnetism basic concepts and data analysis with Python.
 
   education:
     enable: true
