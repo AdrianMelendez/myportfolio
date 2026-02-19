@@ -14,7 +14,10 @@ Menus:
       url: /blog
       weight: 1
 
+
+
 params:
+  # favicon: "images/favicon.png"
   name: "Adrian Melendez Lorenzo"
   subtitle: "AI Engineer"
   description: "Developer portfolio and blog built with Hugo"
@@ -74,41 +77,59 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    # image: "/images/me.png"
     content: |-
-      First, during my education I did two Bachelor's degrees, one in Physics and one in Electronic Engineering. After these, I did a Master's Degree on Theoreitcal Physics
-      and Astrophysics. specializing in the search of planet formation through data analysis.
+      I hold two Bachelor's degrees — one in Physics and one in Electronic Engineering — followed by a Master's in Theoretical Physics and Astrophysics, with a focus on planet formation through data analysis.
 
-      However, I decided not to pursue a PhD and start a company job instead. Currently, I am working as an AI researcher at GMV, a defence and aerospace company. My role is to analyse the state of the art and develop
-      algorithms for sensor data fusion, specially camera and radar. The main tasks are object detection and multi-object tracking.
+      After completing my studies, I decided to pursue an industry career rather than a PhD. I am currently working as an AI / Perception Engineer at [GMV](https://www.gmv.com/en-es), a defense and aerospace company, where I research and develop state-of-the-art algorithms for multi-sensor fusion, particularly for camera and radar systems. My work focuses on object detection, multi-object tracking, and real-time, high-performance perception pipelines.
 
-    skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "Docker"
-        - "Kubernetes"
-        - "PyTorch"
-        - "SciKit-Learn"
-        - "Pandas/Polars"
-        - "Jenkins/Gitlab CI"
-        - "Stonesoup"
-        - "Ultralytics"
+      I enjoy tackling complex, open-ended problems and bridging the gap between research and production, from algorithm design to scalable system deployment.
+
+      **Technologies I work with regularly:**
+      - Docker, Kubernetes
+      - PyTorch, SciKit-Learn
+      - Pandas, Polars
+      - Jenkins, GitLab CI
+      - Stone Soup
+      - Ultralytics YOLO
 
   experience:
     enable: true
     items:
-      - job: "AI Engineer"
+      - job: "AI / Perception Engineer"
         company: "GMV"
         companyUrl: "https://www.gmv.com/en-es"
         date: "Jul 2023 - present"
         content: |-
-          - Research and development on state of the art algorithms for data fusion:
-            - Most of the algorithms considered are used in an autonomous driving context.
-            - Examples of algorithms:
-              - Classical Data Fusion: Kalman Filter, Particle Filter, etc.
-              - AI Aided Kalman FIlters: KalmanNet, DANSE, APBM, etc.
-              - AI Data Fusion: Camera+Radar, Camera+Lidar"
+          #### Research & Development in multi-sensor data fusion and object tracking for autonomous and defense-oriented systems.
+        
+          - Designed and implemented classical state estimation and tracking algorithms:
+            - Kalman Filter (KF), Extended KF (EKF), Unscented KF (UKF), Cubature KF (CKF)
+            - Particle Filter
+            - Joint Probabilistic Data Association (JPDA)
+            - Multi-Hypothesis Tracking (MHT)
+            - Track-to-Track Fusion (centralized & distributed architectures)
+
+          - Developed AI-enhanced filtering and learning-based fusion approaches:
+            - KalmanNet, DANSE, APBM
+            - Cross-modal fusion (Camera + Radar, Camera + LiDAR)
+            - Hybrid model-based / data-driven tracking systems
+
+          - Core developer of real-time sensor simulators (C++):
+            - Radar (GMTI) and EO/IR systems
+            - Physics-based and geometric modeling
+            - Systems designed under strict real-time constraints (≤5 ms)
+
+          - Lead algorithm developer for a real-time, agent-based sensor fusion pipeline (Python):
+            - Comparative evaluation of multiple tracking approaches
+            - Large-scale metrics analysis and benchmarking
+            - Containerized deployment (Docker/Podman) and Kubernetes orchestration
+
+          - Infrastructure & tooling:
+            - ZeroMQ & Protocol Buffers (inter-process communication)
+            - CI/CD with GitLab CI & Jenkins
+            - Infrastructure as Code (Pulumi)
+            - Compute server administration & GPU workload management
       - job: "Member of Nanomagnetism Group"
         company: "CIC nanoGUNE"
         companyUrl:
@@ -210,12 +231,12 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "blog"
       count: 3
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/AdrianMelendez
-      linkedin: https://linkedin.com/adrian-melendez-lorenzo
+      linkedin: https://linkedin.com/adrian-melendez-lorenzo/
       # instagram: https://instagram.com
