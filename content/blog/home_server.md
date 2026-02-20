@@ -12,10 +12,8 @@ date: 2026-02-19T14:00:00+01:00
 draft: false
 tags: ["Home Server", "Docker", "Self-Hosted"]
 categories: ["Personal Projects"]
-share: false
+image: /images/home_server.png
 ---
-
-# My Home Server Setup
 
 Over the past few years, I’ve been building a personal home server to centralize my digital life and experiment with self-hosted services. The goal is to have a secure, manageable, and mostly automated infrastructure that I can access both locally and remotely. Here’s a summary of what I’m running today:
 
